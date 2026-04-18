@@ -138,7 +138,7 @@ Se você enviar esses dados, consigo calcular a rentabilidade esperada e os risc
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- Funcionou bem ter alimentado a base com o que ele deveria ser, com regras claras e depois disso alimentar com os dados do cliente. As respostas fizeram sentido para o proposto pelo desafio.
+- Funcionou bem ter alimentado a base com o que ele deveria ser, com regras claras e depois disso alimentar com os dados do cliente. As respostas fizeram sentido para o proposto pelo desafio. Entendo que com os testes, em termos de assertividade, segurança e coerência foram atendidas com nota 5.
 
 **O que pode melhorar:**
 - Como estamos utilizando um LLM, acaba que responde perguntas não relacionadas somente com o intuito de ser agente financeiro. Por exemplo, como estará o tempo amanhã. Embora ele dizer que é um agente financeiro e não deveria focar nisso, ele responde e tenta trazer novamente para o que ele foi direcionado, que são as finanças.
