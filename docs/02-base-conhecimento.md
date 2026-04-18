@@ -20,36 +20,24 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Os dados não foram modificados. Para que o agente funcione da melhor maneira deveríamos adicionar dados relacionados ao cálculo avançado de risco. 
+Coloco meus projetos para inserção de dados. Poderia configurar para que os projetos fossem executados após serem alimentados com os dados de investimento do cliente (outo arquivo).
+Cálculo Var de Crédito.ipynb ->https://colab.research.google.com/drive/1DRmJB2VGGZHszwmVrfUE_gNk5AW1gcaP?usp=sharing
+Diverdificacao_acao ->https://colab.research.google.com/drive/12VGklZhDkpIj65mvWHgIYPCoUwbRJxU2?usp=sharing
+Projeto_VaR_Parametrico ->https://colab.research.google.com/drive/1LI3UMyzYaCENILd4kbVojqwzHtdcMaCk?usp=sharing
 
+Para renda fixa poderia utilizar os arquivos do projeto de especialista de Renda Fixa ->https://notebooklm.google.com/notebook/b10adf54-5978-44fa-b065-bc3699500272
 ---
 
 ## Estratégia de Integração
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+Os dados poderiam ser carregados no início da sessão, utilizando o contexto dos investimentos e do perfil do investidor para guiar a conversa.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+Os dados da pasta  `data` serão carregados e informações de investimento prévios, quando existentes serão utilizados. Assim não será necessário inserir os dados do prompt novamente a cada atualização.
 
----
-
-## Exemplo de Contexto Montado
-
-> Mostre um exemplo de como os dados são formatados para o agente.
-
-```
-Dados do Cliente:
-- Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
-
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
-```
