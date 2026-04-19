@@ -131,6 +131,31 @@ Liquidez (se houver)
 Se você enviar esses dados, consigo calcular a rentabilidade esperada e os riscos associados.
 - **Resultado:** [X] Correto  [ ] Incorreto
 
+
+### Teste 5: Informação inexistente - com o produto existente
+- **Pergunta:** "Quanto rende o produto OPCT3?"
+- **Resposta esperada:** Não tenho dados suficientes para calcular a rentabilidade.
+
+Você informou apenas o nome OceanPact Serviços Marítimos (ticker OPCT3), mas não foram fornecidos dados de retorno.
+
+Para calcular “quanto rende”, precisamos definir qual tipo de rendimento você quer medir, pois ações podem gerar retorno de três formas:
+
+Valorização do preço (capital gain)
+Dividendos/JCP recebidos
+Retorno total (1 + 2)
+
+Para que eu calcule corretamente, envie um dos conjuntos de dados abaixo:
+
+Opção A — Retorno histórico da sua carteira
+Quantidade comprada
+Preço médio de compra
+Preço atual (ou data de referência)
+Dividendos recebidos (se houver)
+Opção B — Retorno de mercado (sem sua posição)
+Período de análise (ex: últimos 12 meses, 5 anos)
+
+Assim consigo calcular a rentabilidade corretamente sem inventar dados.
+- **Resultado:** [X] Correto  [ ] Incorreto
 ---
 
 ## Resultados
